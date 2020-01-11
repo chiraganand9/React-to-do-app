@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import ListItems from "./ListItems.js";
 
 class App extends React.Component {
   constructor(props){
@@ -29,7 +30,7 @@ class App extends React.Component {
     const newItem=this.state.currentItem;
     console.log(newItem);
     if(newItem.text!==""){
-      const newItems=[...this.state.items,newItems];
+      const newItems=[...this.state.items,newItem];
       this.setState({
         items:newItems,
         currentItem:{
@@ -51,6 +52,7 @@ class App extends React.Component {
             <button type="submit">Add</button>
           </form>
         </header>
+        <ListItems items ={this.state.items}></ListItems>
       </div>
     );
   }
