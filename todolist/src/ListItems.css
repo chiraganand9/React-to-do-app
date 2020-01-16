@@ -22,3 +22,15 @@
     margin: 0 5px;
     font-size: 15px;
 }
+
+.list p input{
+    background-color: transparent;
+    border: 0;
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.list p input:focus{
+    outline: none;
+}
