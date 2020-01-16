@@ -1,17 +1,17 @@
 body{
-  background-color: #283043;
+  background-color: #ee4035;
 }
 
 .App{
-  background-color: #dedbe6;
+  background-color: #fdf498;
   border-radius: 10px;
-  min-height: 500px;
+  min-height: 450px;
   width: 400px;
   margin: 40px auto;
 }
 
 #to-do-form input{
-  background-color: #141213;
+  background-color:  #f37736;
   border: 0;
   border-radius: 10px;
   width: 200px;
@@ -31,12 +31,12 @@ body{
 }
 
 #to-do-form button{
-  height: 50px;
+  height: 40px;
   width: 80px;
   border: 0;
   border-radius: 5px;
   cursor: pointer;
-  background-color: #3a1d18;
+  background-color: #0392cf;
   font-weight: bolder;
   color: white;
 }

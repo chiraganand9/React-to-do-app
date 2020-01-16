@@ -55,10 +55,10 @@ class App extends React.Component {
   }
 
   setUpdate(text, key) {
-    const items = this.state.items;
+    const items = this.state.items;// eslint-disable-next-line
     items.map(item => {
       if (item.key === key) {
-        item.text = text;
+        return item.text = text;
       }
     })
     this.setState({
@@ -73,7 +73,7 @@ class App extends React.Component {
           <form id="to-do-form" onSubmit={this.addItem}>
             <input
               type="text"
-              placeholder="Enter Text"
+              placeholder="Things to-do"
               value={this.state.currentItem.text}
               onChange={this.handleInput}
             />
