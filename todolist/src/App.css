@@ -20,6 +20,7 @@ body{
   margin: 20px;
   color: white;
   font-size: 18px;
+  font-family: 'Roboto Mono', monospace;
 }
 
 #to-do-form input::placeholder{
@@ -38,6 +39,7 @@ body{
   cursor: pointer;
   background-color: #0392cf;
   font-weight: bolder;
+  font-family: 'Roboto Mono', monospace;
   color: white;
 }
 
